@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/like/likes",
+    "pages/message/messages",
+    "pages/mine/mine"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页"
+    },{
+      "pagePath": "pages/like/likes",
+      "text": "收藏"
+    },{
+      "pagePath": "pages/message/messages",
+      "text": "消息"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的"
+    }]
+},
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
